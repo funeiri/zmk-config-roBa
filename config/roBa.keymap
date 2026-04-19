@@ -63,6 +63,13 @@
             bindings = <&kp S &kp NUMBER_0 &kp NUMBER_4 &kp NUMBER_9 &kp NUMBER_7 &kp NUMBER_7 &kp NUMBER_2>;
             label = "MACRO2";
         };
+
+        lt_to_layer_0: lt_to_layer_0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0>;
+            label = "LT_TO_LAYER_0";
+        };
     };
 
     behaviors {
