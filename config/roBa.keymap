@@ -64,11 +64,11 @@
             label = "MACRO2";
         };
 
-        lt_to_layer_0: lt_to_layer_0 {
+        to_layer_0: to_layer_0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to 0>;
-            label = "LT_TO_LAYER_0";
+            label = "TO_LAYER_0";
         };
     };
 
